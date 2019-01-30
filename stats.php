@@ -1,10 +1,10 @@
 <?php
 
 // open connection
-$server = "";
+$server = "192.168.0.9";
 $username = "root";
 $pass = "1";
-$db = "db1";
+$db = "mydb";
 $conn = new mysqli($server, $username, $pass, $db);
 
 if ($conn->connect_error) {
@@ -66,11 +66,11 @@ $row = $result1->fetch_assoc();
     
     <!-- textual feedback -->
     <?php
-    if ($result->num_rows > 0) {
+    if ($result2->num_rows > 0) {
         echo "<ul class='collection'>";
         while($row = $result2->fetch_assoc()) {
         if($row[fb1]!='') // if the current entry is non empty print it in the current collection else go
-                echo "<li class='collection-item'>".$row[q5]."</li>";
+                echo "<li class='collection-item'>".$row[fb1]."</li>";
         }
         echo "</ul>";
     }
