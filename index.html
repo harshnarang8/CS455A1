@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Feedback Form</title>
+                <meta name = "viewport" content = "width = device-width, initial-scale = 1">      
+                <link rel = "stylesheet"
+                        href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+                <link rel = "stylesheet"
+                        href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+                <script type = "text/javascript"
+                        src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+                <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+                </script>
+                <style type="text/css">
+                .vertical-align-middle { 
+                        vertical-align: middle; 
+                }
+                i.icon-red {
+                        color:#ff8a80;
+                }
+                i.icon-green {
+                        color:#b9f6ca;
+                }
+                .special-case {
+                        padding-bottom: 3px;
+                }
+                </style>             
+        </head>
+
+        <body class="container">
+        <div class="row">
+                <br />
+        </div>
+        <div class = "row z-depth-2">
+                <div class="col m1">
+                <br />
+                </div>
+                <form class = "col m10" action="./index.php" method=POST>
+                <h3>Feedback Form</h3>
+                
+                <div class = "row">
+                        <div class = "input-field col s12">
+                                <label>Are you satisfied with our products?</label>
+                                <br />
+                                <br />
+                                <div class = "col s1">
+                                        <i class = "material-icons vertical-align-middle medium special-case icon-red">sentiment_very_dissatisfied</i>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i00" type = "radio" name = "q1"
+                                        value = "i00" />
+                                        <label for = "i00">&nbsp;</label>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i10" type = "radio" name = "q1"
+                                        value = "i10"/>
+                                        <label for = "i10">&nbsp;</label>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i20" type = "radio" name = "q1"
+                                        value = "i20"/>
+                                        <label for = "i20">&nbsp;</label>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i30" type = "radio" name = "q1"
+                                        value = "i30"/>
+                                        <label for = "i30">&nbsp;</label>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i40" type = "radio" name = "q1"
+                                        value = "i40"/>
+                                        <label for = "i40">&nbsp;</label>
+                                </div>
+                                <div class = "col s1">
+                                        <i class = "material-icons vertical-align-middle medium special-case icon-green">sentiment_very_satisfied</i>
+                                </div>
+                        </div>
+                </div>
+
+                <div class = "row">
+                        <div class = "input-field col s12">
+                                <label>Do you find our products easy to use?</label>
+                                <br />
+                                <br />
+                                <div class = "col s1">
+                                        <i class = "material-icons vertical-align-middle medium special-case icon-red">sentiment_very_dissatisfied</i>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i01" type = "radio" name = "q2"
+                                        value = "i01" />
+                                        <label for = "i01"> </label>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i11" type = "radio" name = "q2"
+                                        value = "i11"/>
+                                        <label for = "i11"> </label>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i21" type = "radio" name = "q2"
+                                        value = "i21"/>
+                                        <label for = "i21"> </label>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i31" type = "radio" name = "q2"
+                                        value = "i31"/>
+                                        <label for = "i31"> </label>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i41" type = "radio" name = "q2"
+                                        value = "i41"/>
+                                        <label for = "i41"> </label>
+                                </div>
+                                <div class = "col s1">
+                                        <i class = "material-icons vertical-align-middle medium special-case icon-green">sentiment_very_satisfied</i>
+                                </div>
+                        </div>
+                </div>
+
+                <div class = "row">
+                        <div class = "input-field col s12">
+                                <label>How much impact have our products made on your daily routine?</label>
+                                <br />
+                                <br />
+                                <div class = "col s1">
+                                        <i class = "material-icons vertical-align-middle medium special-case icon-red">sentiment_very_dissatisfied</i>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i02" type = "radio" name = "q3"
+                                        value = "i02" />
+                                        <label for = "i02"> </label>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i12" type = "radio" name = "q3"
+                                        value = "i12"/>
+                                        <label for = "i12"> </label>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i22" type = "radio" name = "q3"
+                                        value = "i22"/>
+                                        <label for = "i22"> </label>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i32" type = "radio" name = "q3"
+                                        value = "i32"/>
+                                        <label for = "i32"> </label>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i42" type = "radio" name = "q3"
+                                        value = "q42"/>
+                                        <label for = "i42"> </label>
+                                </div>
+                                <div class = "col s1">
+                                        <i class = "material-icons vertical-align-middle medium special-case icon-green">sentiment_very_satisfied</i>
+                                </div>
+                        </div>
+                </div>
+
+                <div class = "row">
+                        <div class = "input-field col s12">
+                                <label>Would you recommend our products to your friends and family?</label>
+                                <br />
+                                <br />
+                                <div class = "col s1">
+                                        <i class = "material-icons vertical-align-middle medium special-case icon-red">sentiment_very_dissatisfied</i>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i03" type = "radio" name = "q4"
+                                        value = "i03" />
+                                        <label for = "i03"> </label>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i13" type = "radio" name = "q4"
+                                        value = "i13"/>
+                                        <label for = "i13"> </label>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i23" type = "radio" name = "q4"
+                                        value = "i23"/>
+                                        <label for = "i23"> </label>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i33" type = "radio" name = "q4"
+                                        value = "i33"/>
+                                        <label for = "i33"> </label>
+                                </div>
+                                <div class = "col s1">
+                                        <input id = "i43" type = "radio" name = "q4"
+                                        value = "i43"/>
+                                        <label for = "i43"> </label>
+                                </div>
+                                <div class = "col s1">
+                                        <i class = "material-icons vertical-align-middle medium special-case icon-green">sentiment_very_satisfied</i>
+                                </div>
+                        </div>
+                </div>
+
+                <div class = "row">
+                        <div class = "input-field col s12">
+                                <textarea class="materialize-textarea" id = "misc-feedback" name="feedback" data-length="500"></textarea>
+                                <label for = "misc-feedback">Any other feedback</label>
+                        </div>
+                </div>
+                
+                <div class="row">
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                        <i class="material-icons right">send</i>
+                        </button>
+                </div>
+                </form>       
+        </div>
+        </body>
+</html>
